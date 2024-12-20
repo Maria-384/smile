@@ -1,0 +1,73 @@
+.invisivel{
+    display:none;
+  }
+  .visivel{
+    display:inline;
+  }
+  .inicial {
+    text-align: center;
+    font-size: 100px;
+    background-color: lightgrey;
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(226, 70, 168);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .inicial:hover {
+    background-color: #e0e0e0; /* Cor de fundo mais clara ao passar o mouse */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho da carta ao passar o mouse */
+  }
+  
+  .acertou {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(255, 138, 199);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .acertou:hover {
+    background-color: rgb(97, 255, 107);
+  transform: scale(1.05);
+  }
+
+  .errou {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCYW4ibjqnbHhVy47kUkX-GrAf-5LIVYIUzQ&s');
+    background-size: cover;
+  background-position: center;
+   transition: background-color 0.3s, transform 0.3s;
+
+  }
+
+  .errou:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+  }
+
+  h1{
+    text-align: center;
+    font-family: Handjet;
+  }
+
+  p{
+    text-align: center;
+  }
+
